@@ -8,15 +8,15 @@
 
         <h3>Sign Up Form</h3>
 
-        <form action="/welcome" method="POST">
+        <form action="/welcome" method="GET">
         @csrf
             <label for="fname"> First Name :</label><p>
 
-            </p><input type="text" id="fname" name="fname"><p>
+            </p><input type="text" name="fname"><p>
 
             </p><label for="lname">Last Name :  </label><p>
 
-            </p><input type="text" id="lname" name="lname">
+            </p><input type="text" name="lname">
         </form>
 
         Gender:<p>
